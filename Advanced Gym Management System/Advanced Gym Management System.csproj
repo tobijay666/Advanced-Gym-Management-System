@@ -46,6 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="CustomerPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerPlans.Designer.cs">
+      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MealPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MealPlan.Designer.cs">
+      <DependentUpon>MealPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkoutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkoutPlan.Designer.cs">
+      <DependentUpon>WorkoutPlan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerPlans.resx">
+      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MealPlan.resx">
+      <DependentUpon>MealPlan.cs</DependentUpon>
+
+
     <Compile Include="inRegForm.cs">
       <SubType>Form</SubType>
     </Compile>

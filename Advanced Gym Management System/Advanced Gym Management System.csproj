@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +50,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,32 +62,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerPlans.cs">
+    <Compile Include="Customer overview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerPlans.Designer.cs">
-      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    <Compile Include="Customer overview.Designer.cs">
+      <DependentUpon>Customer overview.cs</DependentUpon>
     </Compile>
-    <Compile Include="MealPlan.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MealPlan.Designer.cs">
-      <DependentUpon>MealPlan.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerUpdateForm.Designer.cs">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkoutPlan.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Slim_Lady_FitnessDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Slim_Lady_FitnessDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="WorkoutPlan.Designer.cs">
-      <DependentUpon>WorkoutPlan.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="CustomerPlans.resx">
-      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    <EmbeddedResource Include="Customer overview.resx">
+      <DependentUpon>Customer overview.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUpdateForm.resx">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+
     <EmbeddedResource Include="MealPlan.resx">
       <DependentUpon>MealPlan.cs</DependentUpon>
     </EmbeddedResource>
+
     <Compile Include="inRegForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,14 +113,15 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <Compile Include="CustomerUpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CustomerUpdateForm.Designer.cs">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </Compile>
+
     <EmbeddedResource Include="inRegForm.resx">
       <DependentUpon>inRegForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,12 +138,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+
     <EmbeddedResource Include="WorkoutPlan.resx">
       <DependentUpon>WorkoutPlan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerUpdateForm.resx">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </EmbeddedResource>
+
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,9 +155,32 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Slim_Lady_FitnessDataSet.xsc">
+      <DependentUpon>Slim_Lady_FitnessDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Slim_Lady_FitnessDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Slim_Lady_FitnessDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Slim_Lady_FitnessDataSet.xss">
+      <DependentUpon>Slim_Lady_FitnessDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\whiteLogo.png" />

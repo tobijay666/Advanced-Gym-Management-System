@@ -58,17 +58,19 @@ namespace Advanced_Gym_Management_System
             this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1127, 98);
+            this.panel1.Size = new System.Drawing.Size(1268, 122);
             this.panel1.TabIndex = 0;
             // 
             // panelslide
             // 
             this.panelslide.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.panelslide.BackColor = System.Drawing.Color.Red;
-            this.panelslide.Location = new System.Drawing.Point(287, 0);
+            this.panelslide.Location = new System.Drawing.Point(323, 0);
+            this.panelslide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelslide.Name = "panelslide";
-            this.panelslide.Size = new System.Drawing.Size(210, 17);
+            this.panelslide.Size = new System.Drawing.Size(236, 21);
             this.panelslide.TabIndex = 1;
             // 
             // button1
@@ -76,9 +78,10 @@ namespace Advanced_Gym_Management_System
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(287, 23);
+            this.button1.Location = new System.Drawing.Point(323, 29);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 74);
+            this.button1.Size = new System.Drawing.Size(236, 92);
             this.button1.TabIndex = 1;
             this.button1.Text = "Add member";
             this.button1.UseVisualStyleBackColor = true;
@@ -89,9 +92,10 @@ namespace Advanced_Gym_Management_System
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 29);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(287, 74);
+            this.pictureBox1.Size = new System.Drawing.Size(323, 92);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -101,9 +105,10 @@ namespace Advanced_Gym_Management_System
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(911, 22);
+            this.button4.Location = new System.Drawing.Point(1025, 28);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 74);
+            this.button4.Size = new System.Drawing.Size(243, 92);
             this.button4.TabIndex = 4;
             this.button4.Text = "meal plan";
             this.button4.UseVisualStyleBackColor = true;
@@ -114,9 +119,10 @@ namespace Advanced_Gym_Management_System
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(703, 22);
+            this.button3.Location = new System.Drawing.Point(791, 28);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 74);
+            this.button3.Size = new System.Drawing.Size(236, 92);
             this.button3.TabIndex = 3;
             this.button3.Text = "Payment";
             this.button3.UseVisualStyleBackColor = true;
@@ -127,9 +133,10 @@ namespace Advanced_Gym_Management_System
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(496, 23);
+            this.button2.Location = new System.Drawing.Point(558, 29);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 74);
+            this.button2.Size = new System.Drawing.Size(236, 92);
             this.button2.TabIndex = 2;
             this.button2.Text = "Customer";
             this.button2.UseVisualStyleBackColor = true;
@@ -141,9 +148,10 @@ namespace Advanced_Gym_Management_System
             // 
             this.panel2.BackColor = System.Drawing.Color.Blue;
             this.panel2.Controls.Add(this.button5);
-            this.panel2.Location = new System.Drawing.Point(287, 98);
+            this.panel2.Location = new System.Drawing.Point(323, 122);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(210, 243);
+            this.panel2.Size = new System.Drawing.Size(236, 304);
             this.panel2.TabIndex = 1;
             this.panel2.Visible = false;
             this.panel2.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
@@ -156,8 +164,9 @@ namespace Advanced_Gym_Management_System
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(0, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(210, 74);
+            this.button5.Size = new System.Drawing.Size(236, 92);
             this.button5.TabIndex = 5;
             this.button5.Text = "Registration";
             this.button5.UseVisualStyleBackColor = false;
@@ -166,9 +175,10 @@ namespace Advanced_Gym_Management_System
             // 
             this.panel3.BackColor = System.Drawing.Color.Blue;
             this.panel3.Controls.Add(this.button10);
-            this.panel3.Location = new System.Drawing.Point(497, 98);
+            this.panel3.Location = new System.Drawing.Point(559, 122);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(210, 243);
+            this.panel3.Size = new System.Drawing.Size(236, 304);
             this.panel3.TabIndex = 8;
             this.panel3.Visible = false;
             this.panel3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
@@ -181,8 +191,9 @@ namespace Advanced_Gym_Management_System
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(0, 0);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(210, 74);
+            this.button10.Size = new System.Drawing.Size(236, 92);
             this.button10.TabIndex = 5;
             this.button10.Text = "Customer overview";
             this.button10.UseVisualStyleBackColor = false;
@@ -190,14 +201,15 @@ namespace Advanced_Gym_Management_System
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1127, 603);
+            this.ClientSize = new System.Drawing.Size(1268, 754);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Home";
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);

@@ -108,9 +108,7 @@ namespace Advanced_Gym_Management_System
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            /*Form1 f1 = new Form1();
-            f1.Show();
-            this.Hide();*/
+            
         }
     }
 }

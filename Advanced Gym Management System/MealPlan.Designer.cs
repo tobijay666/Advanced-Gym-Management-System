@@ -157,7 +157,7 @@ namespace Advanced_Gym_Management_System
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.LightGreen;
+            this.btnClear.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnClear.Location = new System.Drawing.Point(308, 378);
             this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";

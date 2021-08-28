@@ -410,6 +410,7 @@ namespace Advanced_Gym_Management_System
             this.CIDtxt.Name = "CIDtxt";
             this.CIDtxt.Size = new System.Drawing.Size(548, 49);
             this.CIDtxt.TabIndex = 64;
+            this.CIDtxt.TextChanged += new System.EventHandler(this.CIDtxt_TextChanged);
             // 
             // label8
             // 

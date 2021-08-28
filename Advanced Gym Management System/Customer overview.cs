@@ -13,7 +13,7 @@ namespace Advanced_Gym_Management_System
 {
     public partial class Customer_overview : Form
     {
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Users\Ranidu\Source\Repos\Advanced-Gym-Management-System\Advanced Gym Management System\Slim Lady Fitness.mdf';Integrated Security=True;Connect Timeout=30";
+        string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = 'D:\NSBM\Course\SEM 2\C#\C# course work\DB\DB\Slim Lady Fitness.mdf'; Integrated Security = True; Connect Timeout = 30";
         public Customer_overview()
         {
             InitializeComponent();

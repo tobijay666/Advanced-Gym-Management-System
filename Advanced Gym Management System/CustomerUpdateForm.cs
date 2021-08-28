@@ -129,5 +129,10 @@ namespace Advanced_Gym_Management_System
             }
 
         }
+
+        private void CIDtxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

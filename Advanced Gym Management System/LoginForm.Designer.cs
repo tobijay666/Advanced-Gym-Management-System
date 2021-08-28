@@ -67,7 +67,7 @@ namespace Advanced_Gym_Management_System
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Unispace", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(339, 54);
+            this.label1.Location = new System.Drawing.Point(346, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(740, 48);
             this.label1.TabIndex = 66;
@@ -101,7 +101,7 @@ namespace Advanced_Gym_Management_System
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(175, 274);
+            this.label2.Location = new System.Drawing.Point(166, 274);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 48);
             this.label2.TabIndex = 69;
@@ -117,7 +117,7 @@ namespace Advanced_Gym_Management_System
             this.backbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.backbut.Location = new System.Drawing.Point(347, 474);
+            this.backbut.Location = new System.Drawing.Point(375, 474);
             this.backbut.Name = "backbut";
             this.backbut.Size = new System.Drawing.Size(332, 86);
             this.backbut.TabIndex = 71;

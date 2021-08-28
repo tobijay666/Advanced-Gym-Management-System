@@ -17,7 +17,7 @@ namespace Advanced_Gym_Management_System
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Customer_overview());
+            Application.Run(new LoginForm());
 
         }
     }

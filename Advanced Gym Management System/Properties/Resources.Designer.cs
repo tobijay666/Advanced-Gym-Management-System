@@ -63,6 +63,26 @@ namespace Advanced_Gym_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blackLogo {
+            get {
+                object obj = ResourceManager.GetObject("blackLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SILVER {
+            get {
+                object obj = ResourceManager.GetObject("SILVER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap whiteLogo {
             get {
                 object obj = ResourceManager.GetObject("whiteLogo", resourceCulture);

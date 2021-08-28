@@ -89,11 +89,11 @@ namespace Advanced_Gym_Management_System
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(1124, 671);
+            this.label9.Location = new System.Drawing.Point(1009, 671);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 48);
+            this.label9.Size = new System.Drawing.Size(218, 48);
             this.label9.TabIndex = 59;
-            this.label9.Text = "DATE:";
+            this.label9.Text = "JOINED DATE:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -211,6 +211,7 @@ namespace Advanced_Gym_Management_System
             this.backbut.TabIndex = 49;
             this.backbut.Text = "BACK";
             this.backbut.UseVisualStyleBackColor = false;
+            this.backbut.Click += new System.EventHandler(this.backbut_Click);
             // 
             // Updatebut
             // 

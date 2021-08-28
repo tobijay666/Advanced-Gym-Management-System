@@ -46,10 +46,18 @@ namespace Advanced_Gym_Management_System
         {
             
                 this.Hide();
-                Home sistema = new Home();
+                Home2 sistema = new Home2();
                 sistema.ShowDialog();
                 this.Close();
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CustomerinFrom c2 = new CustomerinFrom();
+            c2.Show();
+            this.Close();
         }
     }
 }

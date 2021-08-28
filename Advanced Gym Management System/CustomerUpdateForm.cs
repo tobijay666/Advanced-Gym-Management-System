@@ -134,5 +134,10 @@ namespace Advanced_Gym_Management_System
         {
 
         }
+
+        private void backbut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,9 +29,9 @@ namespace Advanced_Gym_Management_System
 
             if ((username=="admin") && (password=="admin"))
             {
-                this.Close();
-                CustomerUpdateForm cuf1 = new CustomerUpdateForm();
-                cuf1.Show();
+                this.Hide();
+                Home2 home2 = new Home2();
+                home2.Show();
             }
 
             else

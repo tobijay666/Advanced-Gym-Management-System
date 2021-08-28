@@ -60,6 +60,10 @@ namespace Advanced_Gym_Management_System
             finally
             {
                 con1.Close();
+                this.Hide();
+                Customer_overview c1 = new Customer_overview();
+                c1.Show();
+                this.Close();
             }
 
             
@@ -69,6 +73,9 @@ namespace Advanced_Gym_Management_System
         private void backbut_Click(object sender, EventArgs e)
         {
             this.Hide();
+            Home2 h1 = new Home2();
+            h1.Show();
+            this.Close();
             
         }
 

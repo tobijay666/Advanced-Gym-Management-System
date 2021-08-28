@@ -46,34 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
-    <Compile Include="CustomerPlans.cs">
+    <Compile Include="CustomerUpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerPlans.Designer.cs">
-      <DependentUpon>CustomerPlans.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MealPlan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MealPlan.Designer.cs">
-      <DependentUpon>MealPlan.cs</DependentUpon>
+    <Compile Include="CustomerUpdateForm.Designer.cs">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkoutPlan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WorkoutPlan.Designer.cs">
-      <DependentUpon>WorkoutPlan.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="CustomerPlans.resx">
-      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerUpdateForm.resx">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MealPlan.resx">
-      <DependentUpon>MealPlan.cs</DependentUpon>
-
-
     <Compile Include="inRegForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,14 +69,7 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomerUpdateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomerUpdateForm.Designer.cs">
-      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="inRegForm.resx">
       <DependentUpon>inRegForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,9 +86,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="CustomerUpdateForm.resx">
-      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

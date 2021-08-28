@@ -52,12 +52,6 @@
     <Compile Include="CustomerPlans.Designer.cs">
       <DependentUpon>CustomerPlans.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="MealPlan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,9 +68,6 @@
     </Compile>
     <EmbeddedResource Include="CustomerPlans.resx">
       <DependentUpon>CustomerPlans.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MealPlan.resx">
       <DependentUpon>MealPlan.cs</DependentUpon>

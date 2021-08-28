@@ -71,7 +71,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MealPlan.resx">
       <DependentUpon>MealPlan.cs</DependentUpon>
-
+    </EmbeddedResource>
     <Compile Include="inRegForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,15 +92,11 @@
     <Compile Include="CustomerUpdateForm.Designer.cs">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="inRegForm.resx">
       <DependentUpon>inRegForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,13 +108,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-
     <EmbeddedResource Include="WorkoutPlan.resx">
       <DependentUpon>WorkoutPlan.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerUpdateForm.resx">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
-
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

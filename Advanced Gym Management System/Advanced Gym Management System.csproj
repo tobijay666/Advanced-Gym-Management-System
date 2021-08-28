@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
     <Compile Include="Customer overview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,9 +74,22 @@
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+
+    <Compile Include="CustomerUpdateForm.cs">
+      <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CustomerUpdateForm.Designer.cs">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
+
+    </Compile>
+
+    <Compile Include="MealPlan.cs">
+    <SubType>Form</SubType>
+    </Compile>
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <Compile Include="Slim_Lady_FitnessDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -86,6 +100,44 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+
+    <EmbeddedResource Include="CustomerUpdateForm.resx">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="inRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inRegForm.Designer.cs">
+      <DependentUpon>inRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+
+    <Compile Include="WorkoutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkoutPlan.Designer.cs">
+      <DependentUpon>WorkoutPlan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerPlans.resx">
+      <DependentUpon>CustomerPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MealPlan.resx">
+      <DependentUpon>MealPlan.cs</DependentUpon>
+
+    <EmbeddedResource Include="inRegForm.resx">
+      <DependentUpon>inRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +147,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -121,6 +174,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -140,6 +194,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Slim Lady Fitness.mdf</DependentUpon>
     </Content>
+
+    <None Include="Resources\whiteLogo.png" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

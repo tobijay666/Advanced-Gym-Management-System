@@ -52,11 +52,6 @@
     <Compile Include="CustomerUpdateForm.Designer.cs">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
     </Compile>
-
-    <Compile Include="MealPlan.cs">
-    <SubType>Form</SubType>
-    </Compile>
-
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CustomerUpdateForm.resx">
@@ -69,32 +64,17 @@
       <DependentUpon>inRegForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
-
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-
-    <Compile Include="WorkoutPlan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WorkoutPlan.Designer.cs">
-      <DependentUpon>WorkoutPlan.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="CustomerPlans.resx">
-      <DependentUpon>CustomerPlans.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MealPlan.resx">
-      <DependentUpon>MealPlan.cs</DependentUpon>
-
     <EmbeddedResource Include="inRegForm.resx">
       <DependentUpon>inRegForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

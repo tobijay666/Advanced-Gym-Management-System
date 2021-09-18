@@ -75,8 +75,8 @@ namespace Advanced_Gym_Management_System
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(439, 40);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(498, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(704, 55);
             this.label1.TabIndex = 1;
@@ -88,7 +88,7 @@ namespace Advanced_Gym_Management_System
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(282, 172);
+            this.label2.Location = new System.Drawing.Point(42, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 48);
             this.label2.TabIndex = 2;
@@ -120,7 +120,7 @@ namespace Advanced_Gym_Management_System
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(316, 255);
+            this.label3.Location = new System.Drawing.Point(42, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 48);
             this.label3.TabIndex = 4;
@@ -142,7 +142,7 @@ namespace Advanced_Gym_Management_System
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(230, 337);
+            this.label4.Location = new System.Drawing.Point(42, 337);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(173, 48);
             this.label4.TabIndex = 6;
@@ -164,7 +164,7 @@ namespace Advanced_Gym_Management_System
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label5.Location = new System.Drawing.Point(319, 420);
+            this.label5.Location = new System.Drawing.Point(42, 422);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 48);
             this.label5.TabIndex = 8;
@@ -187,7 +187,7 @@ namespace Advanced_Gym_Management_System
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label6.Location = new System.Drawing.Point(182, 505);
+            this.label6.Location = new System.Drawing.Point(42, 505);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(221, 48);
             this.label6.TabIndex = 10;
@@ -225,7 +225,7 @@ namespace Advanced_Gym_Management_System
             this.Submitbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Submitbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Submitbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Submitbut.Location = new System.Drawing.Point(1224, 762);
+            this.Submitbut.Location = new System.Drawing.Point(615, 772);
             this.Submitbut.Name = "Submitbut";
             this.Submitbut.Size = new System.Drawing.Size(286, 65);
             this.Submitbut.TabIndex = 20;
@@ -242,7 +242,7 @@ namespace Advanced_Gym_Management_System
             this.backbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.backbut.Location = new System.Drawing.Point(426, 762);
+            this.backbut.Location = new System.Drawing.Point(1390, 772);
             this.backbut.Name = "backbut";
             this.backbut.Size = new System.Drawing.Size(286, 65);
             this.backbut.TabIndex = 21;
@@ -275,7 +275,7 @@ namespace Advanced_Gym_Management_System
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(1099, 589);
+            this.label9.Location = new System.Drawing.Point(984, 584);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 48);
             this.label9.TabIndex = 31;
@@ -287,7 +287,7 @@ namespace Advanced_Gym_Management_System
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(1099, 505);
+            this.label10.Location = new System.Drawing.Point(983, 505);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(103, 48);
             this.label10.TabIndex = 30;
@@ -309,7 +309,7 @@ namespace Advanced_Gym_Management_System
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label11.Location = new System.Drawing.Point(1071, 422);
+            this.label11.Location = new System.Drawing.Point(984, 422);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(131, 48);
             this.label11.TabIndex = 28;
@@ -331,7 +331,7 @@ namespace Advanced_Gym_Management_System
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label12.Location = new System.Drawing.Point(1054, 338);
+            this.label12.Location = new System.Drawing.Point(984, 338);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(148, 48);
             this.label12.TabIndex = 26;
@@ -419,7 +419,9 @@ namespace Advanced_Gym_Management_System
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "inRegForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "inRegForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.inRegForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

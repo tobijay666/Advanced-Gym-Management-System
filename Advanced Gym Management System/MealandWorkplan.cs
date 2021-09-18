@@ -136,6 +136,11 @@ namespace Advanced_Gym_Management_System
             h1.ShowDialog();
             this.Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

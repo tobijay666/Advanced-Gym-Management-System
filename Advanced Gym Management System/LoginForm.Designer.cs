@@ -44,7 +44,7 @@ namespace Advanced_Gym_Management_System
             this.passtxt.BackColor = System.Drawing.Color.Black;
             this.passtxt.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passtxt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.passtxt.Location = new System.Drawing.Point(448, 353);
+            this.passtxt.Location = new System.Drawing.Point(448, 340);
             this.passtxt.Name = "passtxt";
             this.passtxt.PasswordChar = '*';
             this.passtxt.Size = new System.Drawing.Size(548, 49);
@@ -55,7 +55,7 @@ namespace Advanced_Gym_Management_System
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label8.Location = new System.Drawing.Point(166, 354);
+            this.label8.Location = new System.Drawing.Point(166, 341);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(207, 48);
             this.label8.TabIndex = 67;
@@ -65,11 +65,11 @@ namespace Advanced_Gym_Management_System
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Unispace", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(346, 12);
+            this.label1.Font = new System.Drawing.Font("Astrolab", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(331, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(740, 48);
+            this.label1.Size = new System.Drawing.Size(780, 33);
             this.label1.TabIndex = 66;
             this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,7 +90,7 @@ namespace Advanced_Gym_Management_System
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox1.Location = new System.Drawing.Point(448, 273);
+            this.textBox1.Location = new System.Drawing.Point(448, 223);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(548, 49);
             this.textBox1.TabIndex = 70;
@@ -101,7 +101,7 @@ namespace Advanced_Gym_Management_System
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(166, 274);
+            this.label2.Location = new System.Drawing.Point(166, 224);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 48);
             this.label2.TabIndex = 69;
@@ -141,7 +141,9 @@ namespace Advanced_Gym_Management_System
             this.MaximumSize = new System.Drawing.Size(1145, 650);
             this.MinimumSize = new System.Drawing.Size(1145, 650);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

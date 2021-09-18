@@ -30,9 +30,7 @@ namespace Advanced_Gym_Management_System
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomerinFrom));
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Datetxt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -70,21 +68,11 @@ namespace Advanced_Gym_Management_System
             this.Clearbut = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(590, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 48);
-            this.label1.TabIndex = 75;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
             // 
             // pictureBox1
             // 
@@ -96,17 +84,6 @@ namespace Advanced_Gym_Management_System
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 76;
             this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(519, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(497, 39);
-            this.label2.TabIndex = 77;
-            this.label2.Text = "INITIAL CUSTOMER DETAILS";
             // 
             // groupBox1
             // 
@@ -124,7 +101,7 @@ namespace Advanced_Gym_Management_System
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.Nametxt);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Location = new System.Drawing.Point(319, 211);
             this.groupBox1.Name = "groupBox1";
@@ -303,7 +280,7 @@ namespace Advanced_Gym_Management_System
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.Heighttxt);
             this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox2.Location = new System.Drawing.Point(1083, 211);
             this.groupBox2.Name = "groupBox2";
@@ -469,13 +446,13 @@ namespace Advanced_Gym_Management_System
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Location = new System.Drawing.Point(30, 222);
+            this.label17.Location = new System.Drawing.Point(12, 233);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(217, 33);
+            this.label17.Size = new System.Drawing.Size(284, 42);
             this.label17.TabIndex = 108;
-            this.label17.Text = "Enter Customer ID";
+            this.label17.Text = "Enter Customer ID:";
             // 
             // txtEnterId
             // 
@@ -531,7 +508,7 @@ namespace Advanced_Gym_Management_System
             this.Clearbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clearbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clearbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Clearbut.Location = new System.Drawing.Point(216, 772);
+            this.Clearbut.Location = new System.Drawing.Point(252, 772);
             this.Clearbut.Name = "Clearbut";
             this.Clearbut.Size = new System.Drawing.Size(286, 65);
             this.Clearbut.TabIndex = 112;
@@ -548,7 +525,7 @@ namespace Advanced_Gym_Management_System
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(1449, 772);
+            this.button1.Location = new System.Drawing.Point(1465, 772);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(211, 65);
             this.button1.TabIndex = 113;
@@ -563,15 +540,27 @@ namespace Advanced_Gym_Management_System
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Impact", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(755, 776);
+            this.button2.Location = new System.Drawing.Point(645, 772);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(509, 65);
+            this.button2.Size = new System.Drawing.Size(665, 65);
             this.button2.TabIndex = 114;
-            this.button2.Text = "CHANGE MEAL AND WORKOUT PLANS";
+            this.button2.Text = "CHANGE MEAL / WORKOUT PLANS";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(431, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(934, 55);
+            this.label1.TabIndex = 128;
+            this.label1.Text = "INITIAL CUSTOMER DETAILS";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CustomerinFrom
             // 
@@ -579,6 +568,7 @@ namespace Advanced_Gym_Management_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1688, 849);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Clearbut);
@@ -588,13 +578,13 @@ namespace Advanced_Gym_Management_System
             this.Controls.Add(this.label17);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "CustomerinFrom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomerinFrom";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -608,8 +598,6 @@ namespace Advanced_Gym_Management_System
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox Datetxt;
         private System.Windows.Forms.Label label9;
@@ -647,5 +635,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Button Clearbut;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }

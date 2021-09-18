@@ -84,5 +84,17 @@ namespace Advanced_Gym_Management_System
             mw.Show();
             this.Close();
         }
+
+        private void butLogout_Click(object sender, EventArgs e)
+        {
+            LoginForm mw = new LoginForm();
+            mw.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

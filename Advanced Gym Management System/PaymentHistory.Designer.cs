@@ -39,12 +39,11 @@ namespace Advanced_Gym_Management_System
             this.paymentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.slim_Lady_FitnessDataSet4 = new Advanced_Gym_Management_System.Slim_Lady_FitnessDataSet4();
             this.Searchbut = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.paymentTableAdapter = new Advanced_Gym_Management_System.Slim_Lady_FitnessDataSet4TableAdapters.PaymentTableAdapter();
             this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PayDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paymentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.slim_Lady_FitnessDataSet4)).BeginInit();
@@ -66,7 +65,7 @@ namespace Advanced_Gym_Management_System
             this.PayDGV.Name = "PayDGV";
             this.PayDGV.RowHeadersWidth = 62;
             this.PayDGV.RowTemplate.Height = 28;
-            this.PayDGV.Size = new System.Drawing.Size(1057, 491);
+            this.PayDGV.Size = new System.Drawing.Size(1057, 631);
             this.PayDGV.TabIndex = 123;
             // 
             // pIdDataGridViewTextBoxColumn
@@ -125,20 +124,9 @@ namespace Advanced_Gym_Management_System
             this.Searchbut.Name = "Searchbut";
             this.Searchbut.Size = new System.Drawing.Size(211, 70);
             this.Searchbut.TabIndex = 122;
-            this.Searchbut.Text = "RELOAD";
+            this.Searchbut.Text = "SHOW DATA";
             this.Searchbut.UseVisualStyleBackColor = false;
             this.Searchbut.Click += new System.EventHandler(this.Searchbut_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(459, 121);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(746, 59);
-            this.label2.TabIndex = 121;
-            this.label2.Text = "CUSTOMER PAYMENT DETAILS";
             // 
             // pictureBox1
             // 
@@ -150,17 +138,6 @@ namespace Advanced_Gym_Management_System
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 120;
             this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(594, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 48);
-            this.label1.TabIndex = 119;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
             // 
             // button1
             // 
@@ -177,6 +154,7 @@ namespace Advanced_Gym_Management_System
             this.button1.TabIndex = 124;
             this.button1.Text = "ADD NEW";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // paymentTableAdapter
             // 
@@ -191,7 +169,7 @@ namespace Advanced_Gym_Management_System
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(40, 560);
+            this.button2.Location = new System.Drawing.Point(40, 561);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(211, 70);
             this.button2.TabIndex = 125;
@@ -199,23 +177,36 @@ namespace Advanced_Gym_Management_System
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(422, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1024, 55);
+            this.label3.TabIndex = 131;
+            this.label3.Text = "CUSTOMER PAYMENT DETAILS";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // PaymentHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1688, 849);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.PayDGV);
             this.Controls.Add(this.Searchbut);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "PaymentHistory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PaymentHistory";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.PaymentHistory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PayDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.paymentBindingSource)).EndInit();
@@ -230,9 +221,7 @@ namespace Advanced_Gym_Management_System
 
         private System.Windows.Forms.DataGridView PayDGV;
         private System.Windows.Forms.Button Searchbut;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private Slim_Lady_FitnessDataSet4 slim_Lady_FitnessDataSet4;
         private System.Windows.Forms.BindingSource paymentBindingSource;
@@ -242,5 +231,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.DataGridViewTextBoxColumn cIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn pAmountDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label3;
     }
 }

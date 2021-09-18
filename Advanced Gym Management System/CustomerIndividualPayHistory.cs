@@ -58,5 +58,10 @@ namespace Advanced_Gym_Management_System
             h1.ShowDialog();
             this.Close();
         }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

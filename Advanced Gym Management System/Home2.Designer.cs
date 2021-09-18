@@ -30,20 +30,20 @@ namespace Advanced_Gym_Management_System
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.viewcus = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.payhist = new System.Windows.Forms.Button();
             this.paydet = new System.Windows.Forms.Button();
             this.paynow = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.workbut = new System.Windows.Forms.Button();
-            this.viewcus = new System.Windows.Forms.Button();
-            this.payhist = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.butLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -53,7 +53,7 @@ namespace Advanced_Gym_Management_System
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Advanced_Gym_Management_System.Properties.Resources.blackLogo;
+            this.pictureBox1.Image = global::Advanced_Gym_Management_System.Properties.Resources.whiteLogo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
@@ -62,30 +62,19 @@ namespace Advanced_Gym_Management_System
             this.pictureBox1.TabIndex = 118;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(429, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(735, 60);
-            this.label1.TabIndex = 117;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Stencil", 28F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(530, 140);
+            this.label2.Location = new System.Drawing.Point(530, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(335, 67);
             this.label2.TabIndex = 119;
             this.label2.Text = "MAIN MENU";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // groupBox1
             // 
@@ -95,31 +84,31 @@ namespace Advanced_Gym_Management_System
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Font = new System.Drawing.Font("Stencil", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.groupBox1.Location = new System.Drawing.Point(58, 257);
+            this.groupBox1.Location = new System.Drawing.Point(58, 233);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(353, 479);
             this.groupBox1.TabIndex = 121;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CUSTOMER";
             // 
-            // button2
+            // viewcus
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button2.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button2.Location = new System.Drawing.Point(42, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(252, 89);
-            this.button2.TabIndex = 121;
-            this.button2.Text = "NEW CUSTOMER";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.viewcus.BackColor = System.Drawing.Color.Transparent;
+            this.viewcus.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
+            this.viewcus.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewcus.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.viewcus.Location = new System.Drawing.Point(42, 322);
+            this.viewcus.Name = "viewcus";
+            this.viewcus.Size = new System.Drawing.Size(252, 89);
+            this.viewcus.TabIndex = 123;
+            this.viewcus.Text = "VIEW ALL";
+            this.viewcus.UseVisualStyleBackColor = false;
+            this.viewcus.Click += new System.EventHandler(this.viewcus_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
             this.button3.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button3.Location = new System.Drawing.Point(42, 192);
@@ -130,6 +119,20 @@ namespace Advanced_Gym_Management_System
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Gainsboro;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
+            this.button2.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Location = new System.Drawing.Point(42, 56);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(252, 89);
+            this.button2.TabIndex = 121;
+            this.button2.Text = "NEW CUSTOMER";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
@@ -138,17 +141,31 @@ namespace Advanced_Gym_Management_System
             this.groupBox2.Controls.Add(this.paynow);
             this.groupBox2.Font = new System.Drawing.Font("Stencil", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.groupBox2.Location = new System.Drawing.Point(512, 257);
+            this.groupBox2.Location = new System.Drawing.Point(512, 233);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(353, 479);
             this.groupBox2.TabIndex = 123;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "PAYMENT";
             // 
+            // payhist
+            // 
+            this.payhist.BackColor = System.Drawing.Color.Transparent;
+            this.payhist.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
+            this.payhist.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.payhist.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.payhist.Location = new System.Drawing.Point(30, 322);
+            this.payhist.Name = "payhist";
+            this.payhist.Size = new System.Drawing.Size(284, 89);
+            this.payhist.TabIndex = 124;
+            this.payhist.Text = "VIEW ALL";
+            this.payhist.UseVisualStyleBackColor = false;
+            this.payhist.Click += new System.EventHandler(this.payhist_Click);
+            // 
             // paydet
             // 
             this.paydet.BackColor = System.Drawing.Color.Transparent;
-            this.paydet.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.paydet.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
             this.paydet.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paydet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.paydet.Location = new System.Drawing.Point(30, 192);
@@ -162,7 +179,7 @@ namespace Advanced_Gym_Management_System
             // paynow
             // 
             this.paynow.BackColor = System.Drawing.Color.Transparent;
-            this.paynow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.paynow.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
             this.paynow.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paynow.ForeColor = System.Drawing.SystemColors.Highlight;
             this.paynow.Location = new System.Drawing.Point(30, 56);
@@ -181,17 +198,31 @@ namespace Advanced_Gym_Management_System
             this.groupBox3.Controls.Add(this.workbut);
             this.groupBox3.Font = new System.Drawing.Font("Stencil", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.groupBox3.Location = new System.Drawing.Point(946, 257);
+            this.groupBox3.Location = new System.Drawing.Point(946, 233);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(353, 479);
             this.groupBox3.TabIndex = 124;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "WORKOUT & MEALS";
+            this.groupBox3.Text = "WORKOUT / MEALS";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
+            this.button1.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Location = new System.Drawing.Point(27, 322);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(302, 89);
+            this.button1.TabIndex = 123;
+            this.button1.Text = "CUSTOMER PLANS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
             this.button6.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.Highlight;
             this.button6.Location = new System.Drawing.Point(27, 192);
@@ -205,7 +236,7 @@ namespace Advanced_Gym_Management_System
             // workbut
             // 
             this.workbut.BackColor = System.Drawing.Color.Transparent;
-            this.workbut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.workbut.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowText;
             this.workbut.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workbut.ForeColor = System.Drawing.SystemColors.Highlight;
             this.workbut.Location = new System.Drawing.Point(27, 56);
@@ -216,66 +247,40 @@ namespace Advanced_Gym_Management_System
             this.workbut.UseVisualStyleBackColor = false;
             this.workbut.Click += new System.EventHandler(this.workbut_Click);
             // 
-            // viewcus
+            // butLogout
             // 
-            this.viewcus.BackColor = System.Drawing.Color.Transparent;
-            this.viewcus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.viewcus.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewcus.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.viewcus.Location = new System.Drawing.Point(42, 322);
-            this.viewcus.Name = "viewcus";
-            this.viewcus.Size = new System.Drawing.Size(252, 89);
-            this.viewcus.TabIndex = 123;
-            this.viewcus.Text = "VIEW ALL";
-            this.viewcus.UseVisualStyleBackColor = false;
-            this.viewcus.Click += new System.EventHandler(this.viewcus_Click);
-            // 
-            // payhist
-            // 
-            this.payhist.BackColor = System.Drawing.Color.Transparent;
-            this.payhist.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.payhist.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.payhist.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.payhist.Location = new System.Drawing.Point(30, 322);
-            this.payhist.Name = "payhist";
-            this.payhist.Size = new System.Drawing.Size(284, 89);
-            this.payhist.TabIndex = 124;
-            this.payhist.Text = "VIEW ALL";
-            this.payhist.UseVisualStyleBackColor = false;
-            this.payhist.Click += new System.EventHandler(this.payhist_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button1.Location = new System.Drawing.Point(27, 322);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(302, 89);
-            this.button1.TabIndex = 123;
-            this.button1.Text = "CUSTOMER PLANS";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.butLogout.BackColor = System.Drawing.Color.Transparent;
+            this.butLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.butLogout.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butLogout.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.butLogout.Location = new System.Drawing.Point(542, 748);
+            this.butLogout.Name = "butLogout";
+            this.butLogout.Size = new System.Drawing.Size(284, 89);
+            this.butLogout.TabIndex = 125;
+            this.butLogout.Text = "LOG OUT";
+            this.butLogout.UseVisualStyleBackColor = false;
+            this.butLogout.Click += new System.EventHandler(this.butLogout_Click);
             // 
             // Home2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::Advanced_Gym_Management_System.Properties.Resources.SILVER;
+            this.BackgroundImage = global::Advanced_Gym_Management_System.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1356, 849);
+            this.Controls.Add(this.butLogout);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1378, 905);
             this.MinimumSize = new System.Drawing.Size(1378, 905);
             this.Name = "Home2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Home2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -289,7 +294,6 @@ namespace Advanced_Gym_Management_System
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button viewcus;
@@ -303,5 +307,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button workbut;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button butLogout;
     }
 }

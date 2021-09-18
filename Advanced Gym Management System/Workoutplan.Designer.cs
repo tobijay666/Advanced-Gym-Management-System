@@ -43,7 +43,6 @@ namespace Advanced_Gym_Management_System
             this.txtWorkId = new System.Windows.Forms.TextBox();
             this.lblwname = new System.Windows.Forms.Label();
             this.lblwid = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.workDGV = new System.Windows.Forms.DataGridView();
             this.wIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.wNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +53,7 @@ namespace Advanced_Gym_Management_System
             this.button3 = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.workDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workoutBindingSource)).BeginInit();
@@ -98,11 +98,11 @@ namespace Advanced_Gym_Management_System
             this.groupBox1.Controls.Add(this.lblwid);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.groupBox1.Location = new System.Drawing.Point(28, 126);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(777, 605);
+            this.groupBox1.Size = new System.Drawing.Size(777, 711);
             this.groupBox1.TabIndex = 72;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "WORKOUT PLAN";
@@ -116,9 +116,9 @@ namespace Advanced_Gym_Management_System
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnClear.Location = new System.Drawing.Point(38, 525);
+            this.btnClear.Location = new System.Drawing.Point(38, 535);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(286, 70);
+            this.btnClear.Size = new System.Drawing.Size(178, 70);
             this.btnClear.TabIndex = 82;
             this.btnClear.Text = "CLEAR";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -133,9 +133,9 @@ namespace Advanced_Gym_Management_System
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnInsert.Location = new System.Drawing.Point(444, 432);
+            this.btnInsert.Location = new System.Drawing.Point(287, 535);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(286, 70);
+            this.btnInsert.Size = new System.Drawing.Size(167, 70);
             this.btnInsert.TabIndex = 81;
             this.btnInsert.Text = "INSERT";
             this.btnInsert.UseVisualStyleBackColor = false;
@@ -149,7 +149,7 @@ namespace Advanced_Gym_Management_System
             this.txtWorkDesc.Location = new System.Drawing.Point(359, 219);
             this.txtWorkDesc.Multiline = true;
             this.txtWorkDesc.Name = "txtWorkDesc";
-            this.txtWorkDesc.Size = new System.Drawing.Size(371, 186);
+            this.txtWorkDesc.Size = new System.Drawing.Size(371, 279);
             this.txtWorkDesc.TabIndex = 80;
             // 
             // label2
@@ -183,9 +183,9 @@ namespace Advanced_Gym_Management_System
             this.wupdatebut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.wupdatebut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wupdatebut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.wupdatebut.Location = new System.Drawing.Point(444, 525);
+            this.wupdatebut.Location = new System.Drawing.Point(534, 535);
             this.wupdatebut.Name = "wupdatebut";
-            this.wupdatebut.Size = new System.Drawing.Size(286, 70);
+            this.wupdatebut.Size = new System.Drawing.Size(196, 70);
             this.wupdatebut.TabIndex = 77;
             this.wupdatebut.Text = "UPDATE";
             this.wupdatebut.UseVisualStyleBackColor = false;
@@ -218,17 +218,6 @@ namespace Advanced_Gym_Management_System
             this.lblwid.Name = "lblwid";
             this.lblwid.Size = new System.Drawing.Size(0, 37);
             this.lblwid.TabIndex = 72;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(570, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 48);
-            this.label1.TabIndex = 70;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
             // 
             // workDGV
             // 
@@ -295,7 +284,7 @@ namespace Advanced_Gym_Management_System
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button3.Location = new System.Drawing.Point(271, 767);
+            this.button3.Location = new System.Drawing.Point(1390, 767);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(286, 70);
             this.button3.TabIndex = 83;
@@ -312,7 +301,7 @@ namespace Advanced_Gym_Management_System
             this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReload.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnReload.Location = new System.Drawing.Point(904, 767);
+            this.btnReload.Location = new System.Drawing.Point(826, 767);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(286, 70);
             this.btnReload.TabIndex = 84;
@@ -331,22 +320,36 @@ namespace Advanced_Gym_Management_System
             this.pictureBox1.TabIndex = 71;
             this.pictureBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(671, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(539, 55);
+            this.label3.TabIndex = 131;
+            this.label3.Text = "WORKOUT PLAN";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Workoutplan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1688, 849);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnReload);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.workDGV);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "Workoutplan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WorkoutPlan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Mealplan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -367,7 +370,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Label lblwname;
         private System.Windows.Forms.Label lblwid;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button wupdatebut;
         private System.Windows.Forms.TextBox txtWorkId;
         private System.Windows.Forms.Button btnClear;
@@ -384,5 +386,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.DataGridViewTextBoxColumn wDescDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.Label label3;
     }
 }

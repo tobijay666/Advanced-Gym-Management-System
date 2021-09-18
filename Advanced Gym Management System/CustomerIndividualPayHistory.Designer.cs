@@ -34,8 +34,6 @@ namespace Advanced_Gym_Management_System
             this.Searchbut = new System.Windows.Forms.Button();
             this.txtEnterId = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PayDGV = new System.Windows.Forms.DataGridView();
             this.pIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,6 +43,7 @@ namespace Advanced_Gym_Management_System
             this.slim_Lady_FitnessDataSet3 = new Advanced_Gym_Management_System.Slim_Lady_FitnessDataSet3();
             this.paymentTableAdapter = new Advanced_Gym_Management_System.Slim_Lady_FitnessDataSet3TableAdapters.PaymentTableAdapter();
             this.butHis = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PayDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paymentBindingSource)).BeginInit();
@@ -60,7 +59,7 @@ namespace Advanced_Gym_Management_System
             this.Searchbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Searchbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Searchbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Searchbut.Location = new System.Drawing.Point(40, 359);
+            this.Searchbut.Location = new System.Drawing.Point(68, 356);
             this.Searchbut.Name = "Searchbut";
             this.Searchbut.Size = new System.Drawing.Size(211, 70);
             this.Searchbut.TabIndex = 117;
@@ -73,7 +72,7 @@ namespace Advanced_Gym_Management_System
             this.txtEnterId.BackColor = System.Drawing.Color.Black;
             this.txtEnterId.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEnterId.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.txtEnterId.Location = new System.Drawing.Point(40, 282);
+            this.txtEnterId.Location = new System.Drawing.Point(68, 279);
             this.txtEnterId.Name = "txtEnterId";
             this.txtEnterId.Size = new System.Drawing.Size(211, 40);
             this.txtEnterId.TabIndex = 116;
@@ -82,35 +81,14 @@ namespace Advanced_Gym_Management_System
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Location = new System.Drawing.Point(34, 226);
+            this.label17.Location = new System.Drawing.Point(39, 207);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(217, 33);
+            this.label17.Size = new System.Drawing.Size(319, 46);
             this.label17.TabIndex = 115;
-            this.label17.Text = "Enter Customer ID";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(459, 121);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(717, 39);
-            this.label2.TabIndex = 114;
-            this.label2.Text = "INDIVIDUAL CUSTOMER PAYMENT DETAILS";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(594, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 48);
-            this.label1.TabIndex = 112;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
+            this.label17.Text = "Enter Customer ID:";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // pictureBox1
             // 
@@ -188,7 +166,7 @@ namespace Advanced_Gym_Management_System
             this.butHis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butHis.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butHis.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.butHis.Location = new System.Drawing.Point(40, 474);
+            this.butHis.Location = new System.Drawing.Point(68, 471);
             this.butHis.Name = "butHis";
             this.butHis.Size = new System.Drawing.Size(211, 65);
             this.butHis.TabIndex = 126;
@@ -196,24 +174,37 @@ namespace Advanced_Gym_Management_System
             this.butHis.UseVisualStyleBackColor = false;
             this.butHis.Click += new System.EventHandler(this.butHis_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(395, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1024, 55);
+            this.label1.TabIndex = 127;
+            this.label1.Text = "INDIVIDUAL PAYMENT DETAILS";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CustomerIndividualPayHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1688, 849);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.butHis);
             this.Controls.Add(this.PayDGV);
             this.Controls.Add(this.Searchbut);
             this.Controls.Add(this.txtEnterId);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "CustomerIndividualPayHistory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomerIndividualPayHistory";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.CustomerIndividualPayHistory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PayDGV)).EndInit();
@@ -229,9 +220,7 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Button Searchbut;
         private System.Windows.Forms.TextBox txtEnterId;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView PayDGV;
         private Slim_Lady_FitnessDataSet3 slim_Lady_FitnessDataSet3;
         private System.Windows.Forms.BindingSource paymentBindingSource;
@@ -240,5 +229,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.DataGridViewTextBoxColumn pDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn pAmountDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button butHis;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -43,7 +43,6 @@ namespace Advanced_Gym_Management_System
             this.lblwid = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mealDGV = new System.Windows.Forms.DataGridView();
             this.mIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +53,7 @@ namespace Advanced_Gym_Management_System
             this.mealTableAdapter = new Advanced_Gym_Management_System.Slim_Lady_FitnessDataSet2TableAdapters.MealTableAdapter();
             this.btnReload = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mealDGV)).BeginInit();
@@ -74,11 +74,11 @@ namespace Advanced_Gym_Management_System
             this.groupBox1.Controls.Add(this.lblwid);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Font = new System.Drawing.Font("Unispace", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.groupBox1.Location = new System.Drawing.Point(28, 126);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(777, 605);
+            this.groupBox1.Size = new System.Drawing.Size(777, 711);
             this.groupBox1.TabIndex = 75;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MEAL PLAN";
@@ -92,9 +92,9 @@ namespace Advanced_Gym_Management_System
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnClear.Location = new System.Drawing.Point(38, 525);
+            this.btnClear.Location = new System.Drawing.Point(75, 535);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(286, 70);
+            this.btnClear.Size = new System.Drawing.Size(195, 70);
             this.btnClear.TabIndex = 82;
             this.btnClear.Text = "CLEAR";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -109,9 +109,9 @@ namespace Advanced_Gym_Management_System
             this.btnInsert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInsert.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnInsert.Location = new System.Drawing.Point(444, 432);
+            this.btnInsert.Location = new System.Drawing.Point(308, 535);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(286, 70);
+            this.btnInsert.Size = new System.Drawing.Size(197, 70);
             this.btnInsert.TabIndex = 81;
             this.btnInsert.Text = "INSERT";
             this.btnInsert.UseVisualStyleBackColor = false;
@@ -125,7 +125,7 @@ namespace Advanced_Gym_Management_System
             this.txtMealDesc.Location = new System.Drawing.Point(359, 219);
             this.txtMealDesc.Multiline = true;
             this.txtMealDesc.Name = "txtMealDesc";
-            this.txtMealDesc.Size = new System.Drawing.Size(371, 186);
+            this.txtMealDesc.Size = new System.Drawing.Size(371, 278);
             this.txtMealDesc.TabIndex = 80;
             // 
             // label2
@@ -159,9 +159,9 @@ namespace Advanced_Gym_Management_System
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnUpdate.Location = new System.Drawing.Point(444, 525);
+            this.btnUpdate.Location = new System.Drawing.Point(531, 535);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(286, 70);
+            this.btnUpdate.Size = new System.Drawing.Size(183, 70);
             this.btnUpdate.TabIndex = 77;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -218,17 +218,6 @@ namespace Advanced_Gym_Management_System
             this.label4.TabIndex = 68;
             this.label4.Text = "MEAL ID:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(570, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 48);
-            this.label1.TabIndex = 73;
-            this.label1.Text = "ADVANCED GYM MANAGEMENT SYSTEM";
             // 
             // pictureBox1
             // 
@@ -306,7 +295,7 @@ namespace Advanced_Gym_Management_System
             this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReload.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnReload.Location = new System.Drawing.Point(904, 767);
+            this.btnReload.Location = new System.Drawing.Point(834, 767);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(286, 70);
             this.btnReload.TabIndex = 86;
@@ -323,13 +312,25 @@ namespace Advanced_Gym_Management_System
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.button3.Location = new System.Drawing.Point(273, 767);
+            this.button3.Location = new System.Drawing.Point(1458, 767);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 70);
+            this.button3.Size = new System.Drawing.Size(218, 70);
             this.button3.TabIndex = 85;
             this.button3.Text = "BACK";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Astrolab", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(716, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(404, 55);
+            this.label1.TabIndex = 130;
+            this.label1.Text = "MEAL PLAN";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Mealplan
             // 
@@ -337,16 +338,18 @@ namespace Advanced_Gym_Management_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1688, 849);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReload);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.mealDGV);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(1710, 905);
             this.MinimumSize = new System.Drawing.Size(1710, 905);
             this.Name = "Mealplan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mealplan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Mealplan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -374,7 +377,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView mealDGV;
         private Slim_Lady_FitnessDataSet2 slim_Lady_FitnessDataSet2;
         private System.Windows.Forms.BindingSource mealBindingSource;
@@ -384,5 +386,6 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.DataGridViewTextBoxColumn mDescDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
     }
 }

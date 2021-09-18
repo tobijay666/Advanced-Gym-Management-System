@@ -45,5 +45,14 @@ namespace Advanced_Gym_Management_System
             h1.ShowDialog();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            this.Hide();
+            CustomerPayment h1 = new CustomerPayment();
+            h1.ShowDialog();
+            this.Close();
+        }
     }
 }

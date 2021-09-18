@@ -137,7 +137,10 @@ namespace Advanced_Gym_Management_System
 
         private void backbut_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Home2 h1 = new Home2();
+            h1.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -86,12 +86,6 @@
     <Compile Include="CustomerPayment.Designer.cs">
       <DependentUpon>CustomerPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-    </Compile>
     <Compile Include="CustomerUpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,9 +160,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerPayment.resx">
       <DependentUpon>CustomerPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerUpdateForm.resx">
       <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
@@ -303,6 +294,7 @@
   <ItemGroup>
     <None Include="Resources\blackLogo.png" />
     <None Include="Resources\SILVER.jpeg" />
+    <None Include="Resources\1.jpg" />
     <Content Include="Slim Lady Fitness.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

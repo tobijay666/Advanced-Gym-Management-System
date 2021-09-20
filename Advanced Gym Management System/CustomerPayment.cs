@@ -58,5 +58,12 @@ namespace Advanced_Gym_Management_System
             h1.ShowDialog();
             this.Close();
         }
+
+        private void Clearbut_Click(object sender, EventArgs e)
+        {
+            Datetxt.Text = "";
+            txtCID.Text = "";
+            txtAmount.Text = "";
+        }
     }
 }

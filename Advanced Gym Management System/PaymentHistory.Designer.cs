@@ -120,9 +120,9 @@ namespace Advanced_Gym_Management_System
             this.Searchbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Searchbut.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Searchbut.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Searchbut.Location = new System.Drawing.Point(40, 359);
+            this.Searchbut.Location = new System.Drawing.Point(12, 359);
             this.Searchbut.Name = "Searchbut";
-            this.Searchbut.Size = new System.Drawing.Size(211, 70);
+            this.Searchbut.Size = new System.Drawing.Size(256, 70);
             this.Searchbut.TabIndex = 122;
             this.Searchbut.Text = "SHOW DATA";
             this.Searchbut.UseVisualStyleBackColor = false;

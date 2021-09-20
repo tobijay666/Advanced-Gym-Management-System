@@ -70,6 +70,7 @@ namespace Advanced_Gym_Management_System
             this.Clearbut.TabIndex = 120;
             this.Clearbut.Text = "CLEAR ALL";
             this.Clearbut.UseVisualStyleBackColor = false;
+            this.Clearbut.Click += new System.EventHandler(this.Clearbut_Click);
             // 
             // Datetxt
             // 

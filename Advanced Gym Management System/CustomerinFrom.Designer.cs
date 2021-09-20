@@ -69,6 +69,8 @@ namespace Advanced_Gym_Management_System
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.BMI = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -266,6 +268,8 @@ namespace Advanced_Gym_Management_System
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.BMI);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.widtxt);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.midtxt);
@@ -294,7 +298,7 @@ namespace Advanced_Gym_Management_System
             this.widtxt.BackColor = System.Drawing.Color.Black;
             this.widtxt.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.widtxt.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.widtxt.Location = new System.Drawing.Point(249, 307);
+            this.widtxt.Location = new System.Drawing.Point(249, 396);
             this.widtxt.Name = "widtxt";
             this.widtxt.Size = new System.Drawing.Size(303, 40);
             this.widtxt.TabIndex = 119;
@@ -304,7 +308,7 @@ namespace Advanced_Gym_Management_System
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label16.Location = new System.Drawing.Point(26, 308);
+            this.label16.Location = new System.Drawing.Point(26, 397);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(217, 39);
             this.label16.TabIndex = 118;
@@ -316,7 +320,7 @@ namespace Advanced_Gym_Management_System
             this.midtxt.BackColor = System.Drawing.Color.Black;
             this.midtxt.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.midtxt.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.midtxt.Location = new System.Drawing.Point(249, 353);
+            this.midtxt.Location = new System.Drawing.Point(249, 350);
             this.midtxt.Name = "midtxt";
             this.midtxt.Size = new System.Drawing.Size(303, 40);
             this.midtxt.TabIndex = 117;
@@ -326,7 +330,7 @@ namespace Advanced_Gym_Management_System
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label15.Location = new System.Drawing.Point(26, 353);
+            this.label15.Location = new System.Drawing.Point(26, 350);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(155, 39);
             this.label15.TabIndex = 116;
@@ -562,6 +566,28 @@ namespace Advanced_Gym_Management_System
             this.label1.Text = "INITIAL CUSTOMER DETAILS";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BMI
+            // 
+            this.BMI.BackColor = System.Drawing.Color.Black;
+            this.BMI.Font = new System.Drawing.Font("Arial Narrow", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BMI.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.BMI.Location = new System.Drawing.Point(249, 304);
+            this.BMI.Name = "BMI";
+            this.BMI.Size = new System.Drawing.Size(303, 40);
+            this.BMI.TabIndex = 121;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label2.Location = new System.Drawing.Point(26, 304);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 39);
+            this.label2.TabIndex = 120;
+            this.label2.Text = "BMI:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CustomerinFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -636,5 +662,7 @@ namespace Advanced_Gym_Management_System
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox BMI;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -50,6 +50,7 @@ namespace Advanced_Gym_Management_System
                         Hipstxt.Text = (read["hips"].ToString());
                         widtxt.Text = (read["mID"].ToString());
                         midtxt.Text = (read["wID"].ToString());
+                        BMI.Text = (read["bmi"].ToString());
 
 
 
@@ -84,6 +85,7 @@ namespace Advanced_Gym_Management_System
             Hipstxt.Text = "";
             widtxt.Text = "";
             midtxt.Text = "";
+            BMI.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)

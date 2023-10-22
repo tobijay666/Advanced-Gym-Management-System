@@ -10,7 +10,7 @@
 - KTN Perera
 - GDSM Perera
 
-The **Advanced Gym Management System** is a software solution developed in response to the challenges faced by the company. The project team, consisting of JADMAE Jayakody, RV Iddamalgoda, KTN Perera, and GDSM Perera, collaboratively designed and implemented this system.
+The **Advanced Gym Management System** is a software solution developed in response to the challenges faced by local Gyms. The project team, consisting of JADMAE Jayakody, RV Iddamalgoda, KTN Perera, and GDSM Perera, collaboratively designed and implemented this system.
 
 ## Technology Stack
 
